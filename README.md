@@ -21,7 +21,7 @@ Designed with smooth animations, modern UI, and mobile-friendly responsiveness.
 
 | Project | Description | Technologies | Date |
 |---------|-------------|-------------|------|
-| Machine Learning Classifier | Built and trained ML models to classify datasets with high accuracy. | Python · Scikit-Learn · Pandas | Sep 2023 |
+>*| Machine Learning Classifier | Built and trained ML models to classify datasets with high accuracy. | Python · Scikit-Learn · Pandas | Sep 2023 |
 | Operating Systems Scheduler | Implemented CPU scheduling algorithms and analyzed performance metrics. | C · OS Concepts | Mar 2023 |
 | Web Application Portfolio | Developed a responsive web portfolio with animations and interactive UI. | HTML · CSS · JavaScript | Jul 2023 |
 | Data Analysis Dashboard | Created dashboards for data visualization and reporting. | Python · Matplotlib · Pandas | May 2023 |
@@ -30,11 +30,9 @@ Designed with smooth animations, modern UI, and mobile-friendly responsiveness.
 | E-commerce Website | Built a mock online shopping site with responsive design. | HTML · CSS · JavaScript | Jan 2023 |
 | IoT Temperature Monitor | Monitored temperature using sensors and displayed in real-time. | Arduino · C | Dec 2022 |
 | Chatbot Implementation | Created a rule-based chatbot for FAQ responses. | Python · NLTK | Nov 2022 |
-| Image Processing Project | Applied filters and transformations to images using OpenCV. | Python · OpenCV | Oct 2022 |
+| Image Processing Project | Applied filters and transformations to images using OpenCV. | Python · OpenCV | Oct 2022 |*<
 
-> *Note: Replace or adjust dates and project descriptions according to your records.*
 
----
 
 ## Screenshots
 

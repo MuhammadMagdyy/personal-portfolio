@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/7c7ac2a202.js" crossorigin="anonymous"></script>
+
+    </head>
+    <!-- === Animation: Page fade-in === -->
+    <body class="fade-in">
+
+
+    <!-- ================= PAGE LOADER ================= -->
+        <div id="loader">
+            <div class="spinner"></div>
+        </div>
+
+    <!-- ================= THEME TOGGLE =================
+        <button id="theme-toggle" aria-label="Toggle theme">
+            <i class="fa-solid fa-moon"></i>
+        </button> -->
+
+
+    <!-- ================= HEADER ================= -->
+   
+
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="image/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a> </li>
+                        <li><a href="#about">About</a> </li>
+                        <li><a href="#services">Services</a> </li>
+                        <li><a href="#portfolio">Portfolio</a> </li>
+                        <li><a href="#contact">contact</a> </li>
+                        <li><a href="#uni-projects">University Projects</a> </li>
+
+                        <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                 <!-- === Typing animation text === -->
+                <div class="header-text slide-up">
+                    <p><span class="typed-text"></span></p>
+                    <h1 class="typing">Hi, I'm <span>Mohammad</span><br>
+                        Magdy From Egypt</h1>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-----------------------------about----------------------------------------->
+        <!-- === Animation: Section reveal === -->
+        <div id="about" class="reveal-on-scroll">
+            <div class="container">
+                <div class="row">
+                    <!-- === Animation: Image zoom-in === -->
+                    <div class="about-col-1 zoom-in">
+                        <img src="image/me3.png">
+                    </div>
+                    <div class="about-col-2 slide-up">
+                        <h1 class="sub-title">About me</h1>
+                        <p>
+                            Passionate computer science engineering fresh graduate with a strong foundation in programming languages,
+                            data structures, and software development methodologies. 
+                            Seeking internships or entry-level positions to apply theoretical knowledge
+                            and contribute to innovative solutions. 
+                            Keen on staying updated with emerging technologies like AI, ML, and cloud computing.
+                            Excellent communication and teamwork skills, ready to make a meaningful impact in the industry.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('eduction')">Education</p>
+
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Andriod/iOS apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Sep 2023 - Oct 2023</span><br>IT intern at Mansour Group</li>
+                                <li><span>Apr 2023 - Aug 2023</span><br>Bachelor thesis at Ulm University in Machine and Deep learning</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="eduction">
+                            <ul>
+                                <li><span>2019 - 2024</span><br>Bachelor degree in Engineering at GUC</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--------------------------------- services----------------------------------->
+<div id="services" class="reveal-on-scroll">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <!-- === Animation: Card hover lift === -->
+            <div class="service-card">
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Designing Web/App interfaces</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="service-card">
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Designing Web/App interfaces</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="service-card">
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Designing Web/App interfaces</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ================= UNI PROJECTS ================= -->
+<div id="uni-projects" class="reveal-on-scroll">
+    <div class="container">
+        <h1 class="sub-title">University Projects</h1>
+
+        <div class="projects-grid">
+
+            <!-- Example Project Card -->
+            <div class="project-card">
+                <h3>
+                    Machine Learning Classifier 
+                    <span class="project-date">Sep 2023</span>
+                </h3>
+                <p class="description">
+                    Built and trained ML models to classify datasets with high accuracy.
+                </p>
+                <p class="tech">Python · Scikit-Learn · Pandas</p>
+            </div>
+
+            <div class="project-card">
+                <h3>
+                    Operating Systems Scheduler 
+                    <span class="project-date">Mar 2023</span>
+                </h3>
+                <p class="description">
+                    Implemented CPU scheduling algorithms and analyzed performance metrics.
+                </p>
+                <p class="tech">C · OS Concepts</p>
+            </div>
+
+            <div class="project-card">
+                <h3>
+                    Web Application Portfolio 
+                    <span class="project-date">Jul 2023</span>
+                </h3>
+                <p class="description">
+                    Developed a responsive web portfolio with animations and interactive UI.
+                </p>
+                <p class="tech">HTML · CSS · JavaScript</p>
+            </div>
+
+            <!-- Add your other projects similarly -->
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--------------------------------Work---------------------------------->
+<div id="portfolio" class="reveal-on-scroll">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+             <!-- === Animation: Portfolio tilt hover === -->
+            <div class="work tilt">
+                <img src="image/work1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from the store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app lets you listen to your favorite music anywhere and download it for free.
+                        Download it from the store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work tilt">
+                <img src="image/work3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app lets you know which local brands are around your place and.
+                        Download it from the store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!--------------------------------contact ----------------------------------->
+<div id="contact" class="reveal-on-scroll">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> iimuhammadmagdy@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>01200583603</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/muhammad-magdy-652545238/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/MuhammadMagdyy"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="image/Latest CV.pdf" class="btn btn2">Download CV </a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <input type="text" name="Subject" placeholder="Subject">
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Muhammad. All rights reserved.</p>
+    </div>
+</div>
+
+<!------------------ javascript for about section tabs------------------>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script> 
+
+
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwvPn8YUZp4HuNC7miTZg7AsK6Hr7uLdBk734iAFTZBj6cgyT67k1bucbVrwHTh2Isc/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+  
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => 
+            {
+                msg.innerHTML = "Message sent successfully";
+                setTimeout(function(){
+                    msg.innerHTML = "";
+                },5000);
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+
+<script>
+/* Typing Effect */
+const text = "Computer Science Engineer.";
+let i = 0;
+const typedText = document.querySelector(".typed-text");
+(function type(){
+    if(i < text.length){
+        typedText.textContent += text.charAt(i++);
+        setTimeout(type, 100);
+    }
+})();
+
+/* Scroll Reveal */
+const reveals = document.querySelectorAll(".reveal-on-scroll");
+window.addEventListener("scroll", () => {
+    reveals.forEach(el => {
+        if(el.getBoundingClientRect().top < window.innerHeight - 100){
+            el.classList.add("active");
+        }
+    });
+});
+
+/* =========Theme Toggle========== */
+// const toggle = document.getElementById("theme-toggle");
+// const icon = toggle.querySelector("i");
+
+// toggle.onclick = () => {
+//     document.body.classList.toggle("light");
+
+//     if (document.body.classList.contains("light")) {
+//         icon.classList.replace("fa-moon", "fa-sun");
+//     } else {
+//         icon.classList.replace("fa-sun", "fa-moon");
+//     }
+// };
+
+/* Page Loader */
+window.onload = () => {
+    document.getElementById("loader").style.display = "none";
+};
+</script>
+
+
+    </body>
+</html>

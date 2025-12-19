@@ -30,7 +30,7 @@ Designed with smooth animations, modern UI, and mobile-friendly responsiveness.
 | E-commerce Website | Built a mock online shopping site with responsive design. | HTML · CSS · JavaScript | Jan 2023 |
 | IoT Temperature Monitor | Monitored temperature using sensors and displayed in real-time. | Arduino · C | Dec 2022 |
 | Chatbot Implementation | Created a rule-based chatbot for FAQ responses. | Python · NLTK | Nov 2022 |
-| Image Processing Project | Applied filters and transformations to images using OpenCV. | Python · OpenCV | Oct 2022 |*<
+| Image Processing Project | Applied filters and transformations to images using OpenCV. | Python · OpenCV | Oct 2022 |*
 
 
 

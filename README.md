@@ -39,7 +39,7 @@ Designed with smooth animations, modern UI, and mobile-friendly responsiveness.
 ![Header Section](github-portfolio-imgs/header.png) 
 ![About Section](github-portfolio-imgs/about.png)
 ![Contact Section](github-portfolio-imgs/contact.png)  
-![Work Section](github-portfolio-imgs/Work.png)  
+![Work Section](github-portfolio-imgs/work.png)  
 ![My Services / University Projects Section](github-portfolio-imgs/myservices-uniprojects.png)
 ![Mobile](github-portfolio-imgs/mobilepres.png)
 
